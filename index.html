@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css" integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Intel Sustainability — Timeline</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="brand">
+      <img src="img/Intel-logo.png" alt="Intel logo" class="brand-image"/>
+      <h1>Intel Sustainability Goals</h1>
+    </div>
+    <p class="sub">Explore Intel's journey and 2030+ sustainability goals on a horizontal timeline.</p>
+  </header>
+
+  <main>
+    <br>
+    <br>
+
+    <!-- Bootstrap Carousel -->
+    <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-wrapper">
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/1 (1).jpg" class="d-block w-100 hero-image" alt="Intel campus 1">
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100 hero-image" alt="Intel campus 2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100 hero-image" alt="Intel campus 3">
+          </div>
+          <div class="carousel-item">
+            <img src="img/4 (1).jpg" class="d-block w-100 hero-image" alt="Intel campus 4">
+          </div>
+        </div>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+
+    <div class="timeline-wrap">
+      <button id="prev" class="nav-btn">‹</button>
+      <div id="timeline" class="timeline" tabindex="0">
+
+        <div class="card" data-year="1968">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+          <time>1968</time>
+          <h2>Intel Founded</h2>
+          <p>Robert Noyce and Gordon Moore rename NM Electronics to Intel Corporation, setting the stage for decades of innovation.</p>
+        </div>
+
+        <div class="card" data-year="1971">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+          <time>1971</time>
+          <h2>First Microprocessor</h2>
+          <p>Intel debuts the 4004, the world's first commercial microprocessor — a milestone for computing and energy efficiency trends.</p>
+        </div>
+
+        <div class="card" data-year="8086">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+        <time>1979</time>
+          <h2>8086 Processor</h2>
+        <p>Launch of the 8086 processor establishes x86 architecture that powers many modern systems.</p>
+        </div>
+
+        <div class="card" data-year="1985">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+         <time>1985</time>
+          <h2>386 Processor</h2>
+          <p>Intel introduces the 386 processor, boosting performance and enabling complex tasks.</p>
+        </div>
+
+        <div class="card" data-year="2006">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+           <time>2006</time>
+          <h2>Peak GHG Emissions</h2>
+          <p>Intel records its highest operations emissions and begins major investments in abatement and energy efficiency.</p>
+        
+        </div>
+         <div class="card" data-year="2020">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+          <time>2020</time>
+          <h2>RISE Strategy</h2>
+          <p>Launch of RISE strategy and 2030 goals targeting climate action, water stewardship, and waste reduction.</p>
+         </div>
+
+         <div class="card" data-year="2022">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+            <time>2022</time>
+          <h2>Net-Zero By 2040</h2>
+          <p>Intel commits to net-zero (Scope 1 & 2) across global operations by 2040.</p>
+         </div>
+
+         <div class="card" data-year="2024">
+          <img src="img/leaf.svg" class="card-icon" alt="icon" />
+         <time>2024</time>
+          <h2>Sustainability Summit</h2>
+          <p>Intel hosts a global Sustainability Summit to accelerate supplier and industry collaboration.</p>
+         </div>
+      </div>
+      <button id="next" class="nav-btn">›</button>
+    </div>
+
+    <div class="progress" aria-hidden="true" id="progress"></div>
+
+<br>
+<br>
+     <section>
+    <div class="Column-Wrap">
+      
+      <!-- Column 1 -->
+      <div class="col">
+        <svg class="col-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polyline points="12 8 12 16 16 20"></polyline>
+          <polyline points="12 12 8 14"></polyline>
+        </svg>
+        <h2 class="col2">RISE Strategy</h2>
+        <p class="colp">
+          Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, 
+          Intel sets ambitious 2030 goals, including driving industry-wide 
+          progress on climate action, water stewardship, and waste reduction.
+        </p>
+        <!-- Learn More Button -->
+        <a href="#">Learn More</a>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col">
+        <svg class="col-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 22s8-4.5 8-11c0-4.418-3.582-8-8-8s-8 3.582-8 8c0 6.5 8 11 8 11z"></path>
+          <path d="M11 11.5l2 2 4-4"></path>
+        </svg>
+        <h2 class="col2">Commitment</h2>
+        <p class="colp">
+          In 2022, Intel pledged to achieve net-zero greenhouse gas emissions 
+          (Scope 1 and 2) by 2040. This commitment builds on decades of 
+          environmental initiatives and partnerships across the semiconductor 
+          industry.
+        </p>
+        <!-- Learn More Button -->
+        <a href="#">Learn More</a>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col">
+        <svg class="col-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.32 0z"></path>
+          <path d="M9 12l3 3 3-3"></path>
+          <circle cx="16" cy="8" r="1.5"></circle>
+        </svg>
+        <h2 class="col2">Water &amp; Waste</h2>
+        <p class="colp">
+          Intel conserves billions of gallons of water annually and 
+          collaborates with local communities to restore watersheds.
+          Intel also upcycles and recycles materials to reduce waste and 
+          advance a circular economy.
+        </p>
+        <!-- Learn More Button -->
+        <a href="#">Learn More</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Subscription Form -->
+  <section style="margin-top: 3rem; padding: 2rem; background-color:#0f1724 ;">
+    <h2 class="con2">Subscribe to our Newsletter</h2>
+    <div class="container" style="max-width: 1100px; margin: 0 auto;">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div id="subscribe-alert"></div>
+          <form id="subscription-form" class="row g-2 align-items-center">
+            <div class="col-sm-5">
+              <label for="name" class="form-label visually-hidden">Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Your name">
+            </div>
+            <div class="col-sm-5">
+              <label for="email" class="form-label visually-hidden">Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="col-sm-2 d-grid">
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </div>
+            <div class="col-12">
+              <div class="form-check mt-2">
+                <input class="form-check-input" type="checkbox" value="consent" id="consent" required>
+                <label class="p" for="consent">
+                  I agree to receive the newsletter
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+     
+  </section>
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About</h3>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookie Settings</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Intel Corporation. All rights reserved.</p>
+    </div>
+  </footer>
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
